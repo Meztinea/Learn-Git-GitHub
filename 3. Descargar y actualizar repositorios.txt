@@ -1,0 +1,26 @@
+** Descargar repositorio de GitHub
+
+Cuando existe un proyecto que ya ha sido creado y almacenado en GitHub, es posible seguir trabajando
+    en él, solo es necesario crear un repositorio local clonando la información almacenada en el repositorio 
+    remoto
+
+
+* git clone <url del repositorio remoto> 
+Clona el repositorio remoto a una carpeta en la computadora
+
+
+* Es necesario colocarse en la carpeta que se desea usar para el proyecto antes de hacer el git clone
+
+
+** Actualizar repositorio descargado
+
+Para actualizar un proyecto que ha sido clonado anteriormente solo es necesario realizar los 
+    cambios en los archivos y ejecutar los comando necesarios para llegar a un push 
+
+* Realizar cambios en los archivos
+* Ejecutar git status (Ver el estado)
+* Ejecutar git add (Agregar archivos)
+* Ejecutar git status (para verificar el estado)
+* Ejecutar git commit (para guardar una nueva versión)
+* Ejecutar git push (para llevar los cambios al repositorio remoto)
+
