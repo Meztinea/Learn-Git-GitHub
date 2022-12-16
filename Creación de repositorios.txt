@@ -1,0 +1,36 @@
+Para trabajar con un repositorio remoto es necesario
+
+1. Crear un repositorio local con Git
+
+2. Crear un repositorio remoto en Git Hub
+
+3. Conectar los repositorios local y remoto, indicandole al repositorio local a cual repositorio remoto
+    debe conectarse
+
+
+* git init 
+Crear un repositorio local 
+
+* ls 
+Ver los archivos que contiene la carpeta
+
+* git add
+Agrega un archivo para ser seguido por el versionado
+
+* git status
+Muestra el estado de los archivos que contiene el proyecto
+
+* git commit 
+Crea una nueva versión con los cambios más recientes
+
+* git remote add origin <dirección del repositorio>
+Indicando / configurando el repositorio remoto en el que se desea almacenar el proyecto
+
+* git remote -v 
+Ver el repositorio remoto en el que se están almacenando los cambios 
+
+* git branch -M main
+Rama principal del proyecto
+
+* git push -u origin main
+Sube los cambios del repositorio local al repositorio remoto

@@ -32,10 +32,3 @@ Entre comillas se pueden especificar los cambios realizados en esta nueva versi√
 
 * git log 
 Muestra el historial de commits del proyecto, indicando el usuario, correo, fecha e identificador del commit
-
-
-
-
-
-
- 
