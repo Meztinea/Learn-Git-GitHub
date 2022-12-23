@@ -1,0 +1,26 @@
+Cuando se trabaja con colaboradores 
+
+Cuando se tienen varias ramas ES BUENA PRÁCTICA mantener las ramas secundarias actualizadas, es decir,
+    creamos una rama secundaria o hija en un punto determinado, pasando el tiempo la rama main ya ha sufrido 
+    cambios (commit) y la rama secundaria se ha quedado desactualizada, para ello se realiza un merge donde la
+    rama secundaria recibe los cambios que sufrió la rama principal o padre (main) para mantener siempre el
+    código actualizado y evitar errores 
+
+PASO 1:
+Para actualizar una rama secundaria o hija es necesario en primer lugar actualizar la rama padre (main)
+* pull  --> El comando git pull descarga el contenido de un repositorio remoto y realiza automáticamente 
+    una fusión.
+
+* git pull origin main
+Actualiza la rama principal (main) con los cambios que se encuentran alojados en el repositorio remoto
+
+
+PASO 2:
+Navegar hasta la rama que será actualizada, en este caso, la rama hija o secundaria
+
+* git switch <nombre de la rama secundaria (hija)>
+
+PASO 3:
+Ejecutar un merge para que la rama secundaria reciba los cambios de la rama main
+
+* git merge main 

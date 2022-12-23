@@ -1,0 +1,16 @@
+Crear un repositorio remoto en Git Hub
+
+1. Loguearse en la cuenta de Git Hub
+
+2. Crear un nuevo repositorio
+
+* Los commandos recomendados al crear el nuevo repositorio son los siguientes: 
+echo "# Tooq" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Meztinea/Tooq.git
+git push -u origin main
+
+

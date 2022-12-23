@@ -1,0 +1,12 @@
+* code . 
+Permite abrir el editor de código para realizar cambios en los archivos de la rama que se
+    está trabajando
+
+* ls
+Permite observar los archivos que se encuentran en el área de trabajo
+
+
+* git log 
+Muestra el historial de commits del proyecto, indicando el usuario, correo, fecha e identificador del commit
+
+

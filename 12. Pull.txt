@@ -1,0 +1,12 @@
+* pull  --> El comando git pull descarga el contenido de un repositorio remoto y realiza automáticamente 
+    una fusión en el repositorio local. 
+
+
+* git pull origin main
+Actualiza la rama principal (main) con los cambios que se encuentran alojados en el repositorio remoto
+
+
+* Se utiliza para mantener actualizadas las ramas hijas con la última versión de la rama main (padre)
+
+
+* Más información en el archivo: Mantener actualizada una rama secundaria

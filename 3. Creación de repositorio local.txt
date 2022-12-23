@@ -1,0 +1,14 @@
+* Creación de repositorio local 
+
+PASO 1. Localizarse dentro de la ruta donde se desea crear el repositorio (dentro de la carpeta donde se guardará)
+- cd 
+
+
+PASO 2. Inicializar el repositorio con el comando:
+- git init
+
+
+* En este punto el repositorio ha sido creado y Git informará sobre nuevos archivos y cambios generados en los 
+archios ya existentes
+
+

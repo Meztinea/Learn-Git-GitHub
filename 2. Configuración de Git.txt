@@ -1,0 +1,12 @@
+* Configuración de Git
+
+Como se ha visto brevemente en [ch01-introduction], podemos acceder a los ajustes de configuración de Git a 
+través del comando git config. Una de las primeras acciones que has realizado con Git ha sido el configurar 
+tu nombre y tu dirección de correo electrónico.
+
+Para ejecutar los comandos es necesario abrir el Bash de Git
+
+- Comando para configurar git con usuario e email
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com

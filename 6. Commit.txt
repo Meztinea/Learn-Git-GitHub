@@ -1,0 +1,18 @@
+El comando git commit guardará todos los cambio hechos en la zona de montaje o área de preparación 
+(staging area), junto con una breve descripción del usuario, en un "commit" al repositorio local.
+
+- Cada vez que se ejecuta commit, se está generando una nueva versión del código
+
+* git commit 
+Mueve los archivos del área de staging al área de repositorio, genera una nueva versión con los 
+    cambios mas recientes cada vez que es ejecutado
+
+
+* git commit -m 'my first commit' 
+Entre comillas se pueden especificar los cambios realizados en esta nueva versión 
+La opción más común utilizada con git commit es la opción -m. La -m significa mensaje. Cuando se 
+llama a git commit, es necesario incluir un mensaje. El mensaje debe ser una breve descripción de 
+los cambios a los que se les está realizando commit. El mensaje debe estar al final del comando y 
+debe estar envuelto entre comilla " ".
+
+

@@ -1,18 +1,18 @@
 * En git se pueden crear diferentes ramas
 * La rama principal se llama main 
+
 Dentro de la rama main se almacena el código funcional del programa, la versión estable más actualizada
 ES MALA PRÁCTICA hacer cambios directamente en main, para generar cambios se crean nuevas ramas
-Hacer cambios directamente en main puede generar errores de sobre escritura
+Hacer cambios directamente en main puede generar errores de sobre escritura.
 
 Las otras ramas pueden almacenar funciones nuevas del programa que están siendo producidas
 
 Cada rama puede contener cambios diferentes (pequeños o extensos) de nuevas funcionalidades 
 
-Al tener una nueva función en una rama que se desea unir a la rama principal main, se puen unir para 
+Al tener una nueva función en una rama que se desea unir a la rama principal main, se pueden unir para 
 guardar los cambios en main
 
-* Un merge es una combinación de ramas, para realizar un merge se debe estar situado dentro de la rama que 
-    recibirá los cambios, 
+
 
 * git branch 
 Permite ver las ramas existentes
@@ -21,6 +21,6 @@ Permite ver las ramas existentes
 Cambia de una rama a otra 
 
 * git switch -c <nombre de la rama>     (-c   -- sirve para crear una copia)
-Copia la rama main junto con su configuración, creando una nueva rama, para poder hacer 
+Copia la rama main del repositorio local junto con su configuración, creando una nueva rama, para poder hacer 
     modificaciones y usar el código existente
 

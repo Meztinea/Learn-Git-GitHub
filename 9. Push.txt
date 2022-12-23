@@ -1,0 +1,13 @@
+El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. 
+El comando git push permite subir los commits desde la rama (branch) local en el repositorio git local al 
+repositorio remoto.
+Para poder subir al repositorio remoto, se debe asegurar de hacer commit  a todos los cambios al repositorio local.
+Es importante tener en cuenta que git push sobrescribe otros cambios, por lo que el comando debe utilizarse con cuidado.
+
+
+* git push origin <nombre de la rama>
+Actualiza en el repositorio remoto los cambios realizados, indicando la branch donde se almacenará
+
+
+* Se debe especificar el nombre de la rama en la que se desea realizar el push, para evitar la sobreescritura de otras
+ramas.

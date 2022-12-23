@@ -1,0 +1,12 @@
+** Descargar repositorio de GitHub
+
+Cuando existe un proyecto que ya ha sido creado y almacenado en GitHub, es posible seguir trabajando
+    en él, solo es necesario crear un repositorio local clonando la información almacenada en el repositorio 
+    remoto
+
+
+* git clone <url del repositorio remoto o SSH>
+Clona el repositorio remoto a una carpeta en la computadora
+
+
+* Es necesario colocarse en la carpeta que se desea usar para el proyecto antes de hacer el git clone

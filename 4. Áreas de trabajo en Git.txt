@@ -1,0 +1,27 @@
+* GIT tiene tres áreas de trabajo
+
+1. Área de trabajo : Archivos que estámos trabajando, Git no conoce y tampoco sigue los cambios de nuestros
+    archivos, los  cambios realizados en esta área pueden perderse pues git no tiene conocimiento de estos    
+    archivos ni de sus cambios. 
+
+2. Área de staging : Git puede identificar que estos archivos están sufriendo modificaciones, pero en este
+    punto los cambios aún no forman parte oficialmente del historial de versiones del proyecto
+
+3. Área de repositorio : Git identifica los archivos que son parte del proyecto y ha almacenado una versión
+    de éste. En este punto los cambios están guardados como una nueva versión
+
+
+
+* En cuanto un archivo se encuentre en la carpeta del repositorio, estará automáticamente en el área de trabajo
+
+* Para mover los archivos del área de trabajo al área de staging se ejecuta el siguiente comando
+- git add <nombre del archivo>
+
+
+* Para mover los archivos del área de staging al área de repositorio se ejecuta el siguiente comando, genera una 
+	nueva versión cada vez que es ejecutado
+- git commit -m '<texto_del_commit>'
+	En este caso se incluye el texto del commit entre comillas
+- git commit
+	En este caso no se incluy el texto del commit, se debe especificar después de ejecutar este comando 
+

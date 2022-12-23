@@ -1,0 +1,11 @@
+Un merge es una combinación de ramas 
+
+La fusión es la forma que tiene Git de volver a unir un historial bifurcado. El comando git merge permite tomar las 
+líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
+
+Para realizar un merge, se debe estár localizado dentro de la rama que recibirá los cambios e indicar el nombre 
+de la rama que contiene los cambios a combinar
+
+
+* git merge <nombre de la rama con nuevas funcionalidades>
+Combina dos ramas 

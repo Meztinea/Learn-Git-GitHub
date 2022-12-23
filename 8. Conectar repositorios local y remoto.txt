@@ -1,0 +1,40 @@
+Para trabajar con un repositorio remoto es necesario
+
+1. Crear un repositorio local con Git
+
+2. Crear un repositorio remoto en Git Hub
+
+3. Conectar los repositorios local y remoto, indicandole al repositorio local a cual repositorio remoto
+    debe conectarse, seguir los siguientes comandos para realizar la conexión
+
+
+- git init 
+Crear un repositorio local
+(Ignorar este comando, si ya existe el repositorio local)
+
+- git add <nombre de archivo>
+Agrega un archivo para ser seguido por el versionado
+(Ignorar este comando, si ya se están siguiendo los archivos)
+
+- git commit -m 'mi texto'
+Crea una nueva versión con los cambios más recientes 
+(Ignorar este comando, si ya se realizó por lo menos el primer commit)
+
+* Despues de hacer el primer commit realizar la creación de la rama principal (main) con el siguiente comando
+
+- git branch -M main
+Rama principal del proyecto
+
+* Configurar la conexión entre el repositorio local y el remoto con el siguiente comando
+
+- git remote add origin <dirección del repositorio>
+Indicando / configurando el repositorio remoto en el que se desea almacenar el proyecto
+
+- git remote -v 
+Ver la configuración del repositorio remoto en el que se están almacenando los cambios
+
+* Despues de realizar la conexión del repositorio remoto con el repositorio local, ya se puede subir la última 
+	versión del código (commit) con el siguiente comando
+
+- git push -u origin main
+Sube los cambios del repositorio local al repositorio remoto en la rama principal / padre (main)
