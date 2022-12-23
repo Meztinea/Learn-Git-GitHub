@@ -1,0 +1,21 @@
+Comandos de add
+
+* git add . 
+Organiza todos los archivos (nuevos, modificados, eliminados) en la carpeta actual
+
+* git add -A
+Organizar todos los archivos (nuevos, modificados, eliminados) 
+Incluido el acto de eliminar un archivo y  de rastrear archivos que aún no se rastrearon.
+Se toma como un archivo eliminado al archivo que ha cambiado de nombre
+
+* git add --ignore-removal .
+Organizar solo archivos nuevos y modificados
+
+* git add -u
+Solo archivos modificados y eliminados por etapas
+
+* git add '4. Branch.txt'
+Agregar al área de staging un archivo con nombre que contiene espacios 'colocar entre comillas'
+
+
+
