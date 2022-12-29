@@ -8,6 +8,16 @@ Permite abrir el editor de código para realizar cambios en los archivos de la r
 * ls
 Permite observar los archivos que se encuentran en el área de trabajo
 
-
 * git log 
 Muestra el historial de commits del proyecto, indicando el usuario, correo, fecha e identificador del commit
+
+* touch .gitignore
+Crear archivo git ignore para administrar los archivos que no serán enviados al área de staging
+
+* git rm --cached 'Nombre del archivo'
+Quitar un archivo del área de stagin. Funcional para quitar archivos que se van a ignorar en el archivo gitignore
+
+* touch README.md 
+Crear el archivo readme del proyecto 
+
+
